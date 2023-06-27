@@ -1,0 +1,56 @@
+#container {
+
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+#Rock {
+    background: skyblue;
+}
+
+#Paper {
+    background: orange;
+}
+
+#Scissors {
+    background: pink;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 20%;
+    padding: 14px 28px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#result {
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: green;
+    vertical-align: top;
+}
+
+#scoreboard {
+    background-color: yellow;
+    margin: 48px auto;
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
